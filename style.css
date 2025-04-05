@@ -10,6 +10,14 @@ html, body {
     width: 100%;
 }
 
-:root{
-    --all-color:background: linear-gradient(to bottom, #1e3c72, #2a5298, #7b4397);
+:root {
+    --gradient-color: linear-gradient(to bottom, #1e3c72, #2a5298, #a778bf);
+}
+
+.navbar-banner {
+    background: var(--gradient-color);
+}
+
+.logo img {
+    height: 100px; /* Adjust as needed */
 }
