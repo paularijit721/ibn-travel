@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+:root{
+    --all-color:background: linear-gradient(to bottom, #1e3c72, #2a5298, #7b4397);
+}
