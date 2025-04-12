@@ -11,13 +11,22 @@ html, body {
 }
 
 :root {
-    --gradient-color: linear-gradient(to bottom, #1e3c72, #2a5298, #a778bf);
+    --back-color: #2F76B8;
 }
 
 .navbar-banner {
-    background: var(--gradient-color);
+    background: var(--back-color);
 }
 
 .logo img {
     height: 100px; /* Adjust as needed */
+}
+
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.top-bar-right{
+    display: flex;
+    justify-content: space-between;
 }
